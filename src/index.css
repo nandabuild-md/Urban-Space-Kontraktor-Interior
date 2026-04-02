@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --color-on-primary-container: #503d00;
+  --color-on-error: #690005;
+  --color-surface: #131313;
+  --color-inverse-surface: #e5e2e1;
+  --color-surface-bright: #3a3939;
+  --color-on-secondary-fixed: #1b1b1c;
+  --color-on-tertiary-container: #2e3b77;
+  --color-surface-variant: #353534;
+  --color-tertiary: #b9c4ff;
+  --color-on-primary-fixed-variant: #584400;
+  --color-surface-container-highest: #353534;
+  --color-primary-fixed: #ffe08f;
+  --color-inverse-primary: #755b00;
+  --color-secondary: #c8c6c5;
+  --color-secondary-container: #474746;
+  --color-on-tertiary-fixed: #041451;
+  --color-primary-container: #c9a84c;
+  --color-on-primary: #3d2e00;
+  --color-outline-variant: #4d4637;
+  --color-secondary-fixed-dim: #c8c6c5;
+  --color-on-error-container: #ffdad6;
+  --color-on-secondary-fixed-variant: #474746;
+  --color-secondary-fixed: #e5e2e1;
+  --color-tertiary-fixed-dim: #b9c3ff;
+  --color-on-tertiary-fixed-variant: #35437e;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-tertiary-fixed: #dde1ff;
+  --color-on-tertiary: #1e2b66;
+  --color-surface-container: #201f1f;
+  --color-tertiary-container: #9ba8eb;
+  --color-on-secondary-container: #b7b5b4;
+  --color-error-container: #93000a;
+  --color-surface-container-low: #1c1b1b;
+  --color-surface-container-high: #2a2a2a;
+  --color-outline: #99907e;
+  --color-on-surface-variant: #d0c5b2;
+  --color-surface-tint: #e6c364;
+  --color-error: #ffb4ab;
+  --color-background: #131313;
+  --color-on-secondary: #303030;
+  --color-on-surface: #e5e2e1;
+  --color-primary-fixed-dim: #e6c364;
+  --color-on-primary-fixed: #241a00;
+  --color-primary: #e6c364;
+  --color-surface-dim: #131313;
+  --color-on-background: #e5e2e1;
+  --color-inverse-on-surface: #313030;
+
+  --font-headline: "Noto Serif", serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+  --font-label: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-headline);
+}
+
+.perspective-1000 { perspective: 1000px; }
+.tilt-card { transition: transform 0.1s ease-out; transform-style: preserve-3d; }
+
+.room-door-left { transform-origin: left; transition: transform 1.2s cubic-bezier(0.4, 0, 0.2, 1); }
+.room-door-right { transform-origin: right; transition: transform 1.2s cubic-bezier(0.4, 0, 0.2, 1); }
+.reveal-container:hover .room-door-left { transform: scaleX(0); }
+.reveal-container:hover .room-door-right { transform: scaleX(0); }
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.slider-handle { cursor: ew-resize; }
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 40px;
+  height: 40px;
+  background: #e6c364;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(230, 195, 100, 0.5);
+}
