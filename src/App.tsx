@@ -42,9 +42,9 @@ export default function App() {
           <a className="text-[#e5e2e1] font-medium hover:text-[#e6c364] transition-colors duration-300" href="#">Layanan</a>
           <a className="text-[#e5e2e1] font-medium hover:text-[#e6c364] transition-colors duration-300" href="#">Harga</a>
           <a className="text-[#e5e2e1] font-medium hover:text-[#e6c364] transition-colors duration-300" href="#">Kontak</a>
-          <button className="bg-primary text-on-primary px-6 py-2 text-sm font-semibold rounded-sm hover:bg-primary-container transition-all active:scale-95 duration-200">
+          <a href="https://wa.me/6283167987800?text=Halo%20Astrina%2C%20saya%20tertarik%20dengan%20website%20Urban%20Space%20atau%20saya%20tertarik%20membuat%20template%20seperti%20demo8.astmay.space%2C%20bisakah%20saya%20dapat%20free%20konsultasi%3F" target="_blank" rel="noopener noreferrer" className="bg-primary text-on-primary px-6 py-2 text-sm font-semibold rounded-sm hover:bg-primary-container transition-all active:scale-95 duration-200">
             Konsultasi Gratis
-          </button>
+          </a>
         </div>
       </nav>
 
@@ -67,9 +67,9 @@ export default function App() {
               <button className="bg-primary text-on-primary px-8 py-4 text-sm font-bold rounded-sm flex items-center gap-3 group hover:bg-primary-container transition-all">
                 Lihat Proyek Kami <span className="material-symbols-outlined group-hover:translate-y-1 transition-transform">south</span>
               </button>
-              <button className="border border-outline-variant/15 text-primary px-8 py-4 text-sm font-bold rounded-sm hover:bg-surface-container-highest transition-all">
+              <a href="https://wa.me/6283167987800?text=Halo%20Astrina%2C%20saya%20tertarik%20dengan%20website%20Urban%20Space%20atau%20saya%20tertarik%20membuat%20template%20seperti%20demo8.astmay.space%2C%20bisakah%20saya%20dapat%20free%20konsultasi%3F" target="_blank" rel="noopener noreferrer" className="border border-outline-variant/15 text-primary px-8 py-4 text-sm font-bold rounded-sm hover:bg-surface-container-highest transition-all">
                 Konsultasi Gratis
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -229,9 +229,9 @@ export default function App() {
               <p className="text-on-surface-variant max-w-sm leading-relaxed">
                 Kami mengintegrasikan visi estetika dengan fungsi teknis untuk menciptakan lingkungan yang mendukung gaya hidup dan performa bisnis Anda.
               </p>
-              <button className="bg-primary text-on-primary px-8 py-4 text-sm font-bold rounded-sm inline-flex items-center gap-3">
+              <a href="https://wa.me/6283167987800?text=Halo%20Astrina%2C%20saya%20tertarik%20dengan%20website%20Urban%20Space%20atau%20saya%20tertarik%20membuat%20template%20seperti%20demo8.astmay.space%2C%20bisakah%20saya%20dapat%20free%20konsultasi%3F" target="_blank" rel="noopener noreferrer" className="bg-primary text-on-primary px-8 py-4 text-sm font-bold rounded-sm inline-flex items-center gap-3">
                 Konsultasi Sekarang <span className="material-symbols-outlined">arrow_forward</span>
-              </button>
+              </a>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-outline-variant/10">
               <div className="bg-surface p-10 space-y-4">
@@ -453,9 +453,9 @@ export default function App() {
         </div>
         <div className="max-w-7xl mx-auto px-8 text-center relative z-10">
           <h2 className="text-5xl md:text-7xl font-headline mb-12 leading-tight">Wujudkan Ruang <br/>Impianmu.</h2>
-          <button className="bg-primary text-on-primary px-12 py-6 text-lg font-bold rounded-sm hover:scale-105 transition-all shadow-[0_0_40px_rgba(230,195,100,0.3)] inline-flex items-center gap-4">
+          <a href="https://wa.me/6283167987800?text=Halo%20Astrina%2C%20saya%20tertarik%20dengan%20website%20Urban%20Space%20atau%20saya%20tertarik%20membuat%20template%20seperti%20demo8.astmay.space%2C%20bisakah%20saya%20dapat%20free%20konsultasi%3F" target="_blank" rel="noopener noreferrer" className="bg-primary text-on-primary px-12 py-6 text-lg font-bold rounded-sm hover:scale-105 transition-all shadow-[0_0_40px_rgba(230,195,100,0.3)] inline-flex items-center gap-4">
             Jadwalkan Konsultasi Gratis <span className="material-symbols-outlined">arrow_forward</span>
-          </button>
+          </a>
         </div>
       </section>
 
@@ -492,8 +492,9 @@ export default function App() {
             </ul>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto px-12 mt-20 pt-8 border-t border-outline-variant/5 text-center">
+        <div className="max-w-7xl mx-auto px-12 mt-20 pt-8 border-t border-outline-variant/5 text-center space-y-2">
           <p className="text-[#e5e2e1]/40 text-xs font-label tracking-widest uppercase">© 2024 Urban Space. Architects of Atmosphere.</p>
+          <p className="text-[#e5e2e1]/30 text-xs">Website oleh <a href="https://astmay.space" target="_blank" rel="noopener" className="text-[#e6c364]/50 hover:text-[#e6c364] transition-colors underline">Astrina Maysaroh — Jasa Pembuatan Website Profesional</a></p>
         </div>
       </footer>
     </div>

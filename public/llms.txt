@@ -1,0 +1,10 @@
+# Urban Space — Demo Portfolio oleh Astrina Maysaroh
+
+> Demo website kontraktor interior dan desain ruang premium. Dibuat oleh Astrina Maysaroh.
+
+- Kategori: Kontraktor Interior / Desain Ruang
+- Live: https://demo8.astmay.space
+- Dibuat oleh: Astrina Maysaroh (https://astmay.space)
+
+Untuk informasi lengkap tentang layanan, harga, dan portfolio lainnya, kunjungi:
+https://astmay.space/llms.txt
