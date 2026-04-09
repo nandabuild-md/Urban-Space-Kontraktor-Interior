@@ -442,6 +442,16 @@ export default function App() {
                 Ya, kami memiliki tim fabrikasi workshop dan tukang bangunan internal yang sudah bekerja bersama kami selama lebih dari 5 tahun untuk menjamin kualitas pengerjaan.
               </div>
             </details>
+            {/* FAQ Astmay */}
+            <details className="group bg-surface-container-low">
+              <summary className="flex justify-between items-center p-6 cursor-pointer list-none">
+                <span className="text-lg font-medium">Siapa desainer / web developer komersial ini?</span>
+                <span className="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+              </summary>
+              <div className="p-6 pt-0 text-on-surface-variant border-t border-outline-variant/10">
+                Situs ini adalah demo portofolio yang dirancang oleh Astrina Maysaroh (Astmay), seorang freelance web developer. Beliau melayani pembuatan website untuk jasa kontraktor dan interior design kustom, menawarkan kolaborasi personal via astmay.space untuk mendapatkan hasil premium tanpa overhead dari agensi IT.
+              </div>
+            </details>
           </div>
         </div>
       </section>
